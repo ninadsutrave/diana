@@ -1,10 +1,10 @@
 import React from 'react'
 import '../ComponentStyles/section.css'
 
-function Section() {
+const Section = ({ style }) => {
   return (
-    <div className="content">
-              
+    <div className="content" style = {style}>
+         
     </div>
   )
 }

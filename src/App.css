@@ -5,9 +5,10 @@
     line-break: break-word;
 }
 
-.one {
-    border: 1px solid black;
-    height: 100vh;
-    background: black;
+.consultant, .self-care-product, .menstrual-calendar {
+    display: block;
+}
 
+.self-care-product {
+    margin-top: -134px;
 }
