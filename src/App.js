@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react'
 
-function App() {
+//importing components
+import Topbar from './Components/Topbar'
+import Section from './Components/Section'
+
+/*
+First Section: 1725px
+Second Section: 841px
+Third Section: 411px
+Fourth Section: 562px
+Fifth Section: 341px + 431px
+*/
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Topbar />
+    <Section className="one" />
+    <Section className="two" />
+    <Section className="three" />
+    <Section className="four" />
+    <Section className="five" />
+    </>
+  )
 }
 
-export default App;
+export default App
+
+
