@@ -1,11 +1,35 @@
 import React from 'react'
 import './sectionseven.css'
+import TextContent from '../elements/TextContent'
+import MediumButton from '../elements/MediumButton'
 
 const SectionSeven = () => {
   return (
     <>
     <div className="section-seven">
-        SectionSeven
+      <TextContent 
+        style = {{
+          fontSize: '32px',
+          color: 'rgba(255, 255, 255, 0.8)'
+        }}
+        text = "Get your personalized period box"
+      />
+      <img alt="" src={require('../../assets/images/period-box.png')} />
+      <TextContent 
+        style = {{
+          fontSize: '14px',
+          color: 'rgba(255, 255, 255, 0.8)'
+        }}
+        text = "Tailor your monthly box of organic period products without the organic price tag (no pink taxing here). Get it delivered to your doorstep in sustainable packaging and track your subscription on our app. "
+      />
+      <MediumButton 
+        style = {{
+          background: 'black',
+          color: 'white',
+          fontSize: '14px'
+        }}
+        text = "Create your box on the app"
+      />
     </div>
     </>
   )

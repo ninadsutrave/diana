@@ -1,0 +1,8 @@
+.button-large {
+    width: 315px;
+    height: 66px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

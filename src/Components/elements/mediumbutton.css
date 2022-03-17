@@ -1,0 +1,12 @@
+.button-medium {
+    width: 287px;
+    height: 43px;
+    border-radius: 27px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right-icon {
+    width: 26.91px;
+    height: 24px;
+}
