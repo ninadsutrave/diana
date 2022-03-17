@@ -5,7 +5,7 @@ import Content from '../elements/Content'
 const SectionFive = () => {
   return (
     <>
-    <div className = "section-five">
+    <div className = "section section-five">
     <Content
         heading = "Track your period"
         headingStyle = {{

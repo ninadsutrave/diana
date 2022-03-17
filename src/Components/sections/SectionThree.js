@@ -6,7 +6,7 @@ import TextContent from '../elements/TextContent'
 const SectionThree = () => {
   return (
     <>
-    <div className = "section-three">
+    <div className = "section section-three">
         <TextContent 
           style = {{
             fontFamily: 'Poppins',

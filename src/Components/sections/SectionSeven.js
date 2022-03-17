@@ -6,7 +6,7 @@ import MediumButton from '../elements/MediumButton'
 const SectionSeven = () => {
   return (
     <>
-    <div className="section-seven">
+    <div className="section section-seven">
       <TextContent 
         style = {{
           fontSize: '32px',

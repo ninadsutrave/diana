@@ -5,7 +5,7 @@ import Bullet from '../elements/Bullet'
 
 const SectionTwo = () => {
   return (
-    <div className="section-two">
+    <div className="section section-two">
       <TextContent 
           style = {{
             fontFamily: 'Poppins',

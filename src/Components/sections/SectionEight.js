@@ -5,7 +5,7 @@ import './SectionEight.css'
 const SectionEight = () => {
   return (
     <>
-    <div className="section-eight">
+    <div className="section section-eight">
       <div className="gradient"></div>
       <TextContent 
         style = {{

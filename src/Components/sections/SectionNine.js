@@ -7,7 +7,7 @@ import Form from '../elements/Form'
 const SectionNine = () => {
   return (
     <>
-    <div className="section-nine">
+    <div className="section section-nine">
 
       <div className="social-media-icons">     
       <img className="facebook-icon" alt="" src={require("../../assets/icons/facebook.png")} />
