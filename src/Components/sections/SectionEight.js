@@ -9,7 +9,12 @@ const SectionEight = () => {
       <div className="gradient"></div>
       <TextContent 
         style = {{
-          fontSize: '33px'
+          fontSize: '35px',
+          fontFamily: 'Reptile-Medium',
+          fontStyle: 'normal',
+          fontWeight: '500',
+          lineHeight: '134.8%',
+          width: '274px'
         }}
         text = "With Diana, you’re in control of your health, your every day, and your story."
       />

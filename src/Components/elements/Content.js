@@ -2,19 +2,15 @@ import React from 'react'
 import TextContent from './TextContent'
 import LargeButton from './LargeButton'
 
-function Content({heading, description, buttonText, buttonStyles}) {
+function Content({heading, headingStyle, description, descriptionStyle, buttonText, buttonStyles}) {
   return (
     <>
     <TextContent 
-          style = {{
-            fontSize: '32px'
-          }}
+          style = {headingStyle}
           text = {heading}
         />
         <TextContent 
-          style = {{
-            fontSize: '14px'
-          }}
+          style = {descriptionStyle}
           text = {description}
         />
         <LargeButton 

@@ -1,17 +1,17 @@
-/*DM Sans Resular 400*/
+/*DM Sans Regular 400*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
-/*Poppins Light 300*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/*Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
-/**/
+/*Reptile Medium*/
 @font-face {
     font-family: 'Reptile-Medium';
     src: local('Reptile-Medium') url(./fonts/Reptile-Medium.otf) format('otf');
 }
 
-/*Inter 400*/
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/*Quick Sand Bold 700*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
 * {
     margin: 0;

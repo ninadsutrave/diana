@@ -11,7 +11,11 @@ const SectionSeven = () => {
         style = {{
           fontSize: '32px',
           color: 'rgba(255, 255, 255, 0.8)',
-          marginBottom: '15px'
+          fontFamily: 'Reptile-Medium',
+          fontStyle: 'normal',
+          fontWeight: '500',
+          lineHeight: '134.8%',
+          marginBottom: '15px',
         }}
         text = "Get your personalized period box"
       />
