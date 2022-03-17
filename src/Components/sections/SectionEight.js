@@ -1,6 +1,6 @@
 import React from 'react'
 import TextContent from '../elements/TextContent'
-import './sectioneight.css'
+import './SectionEight.css'
 
 const SectionEight = () => {
   return (

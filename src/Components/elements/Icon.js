@@ -1,5 +1,5 @@
 import React from 'react'
-import './icon.css'
+import './Icon.css'
 
 const Icon = ({imgSource}) => {
   return (

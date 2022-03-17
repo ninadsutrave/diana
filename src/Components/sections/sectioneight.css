@@ -5,6 +5,13 @@
     width: 100%;
     display: grid;
     place-items: center;
+    font-family: 'Reptile', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 134.8%;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
 }
 
 .gradient {

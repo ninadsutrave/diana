@@ -1,5 +1,5 @@
 import React from 'react'
-import './sectionnine.css'
+import './SectionNine.css'
 import ListItem from '../elements/ListItem'
 import Divider from '../elements/Divider'
 import Form from '../elements/Form'
@@ -24,7 +24,7 @@ const SectionNine = () => {
       <Divider 
         style = {{
           width: '306px',
-          border: '0.5px solid #E3F4FF'
+          border: '0.5px solid #E3F4FF',
         }}
       />
       

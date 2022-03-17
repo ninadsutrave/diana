@@ -1,5 +1,5 @@
 import React from 'react'
-import './sectionseven.css'
+import './SectionSeven.css'
 import TextContent from '../elements/TextContent'
 import MediumButton from '../elements/MediumButton'
 
@@ -10,19 +10,28 @@ const SectionSeven = () => {
       <TextContent 
         style = {{
           fontSize: '32px',
-          color: 'rgba(255, 255, 255, 0.8)'
+          color: 'rgba(255, 255, 255, 0.8)',
+          marginBottom: '15px'
         }}
         text = "Get your personalized period box"
       />
+      <div className="ellipse"></div>
       <img className="period-box" alt="" src={require('../../assets/images/period-box.png')} />
       <TextContent 
         style = {{
+          width: '308px',
           fontSize: '14px',
-          color: 'rgba(255, 255, 255, 0.8)'
+          color: 'rgba(255, 255, 255, 0.8)',
+          fontFamily: 'Poppins',
+          fontStyle: 'normal',
+          fontWeight: '300',
+          lineHeight: '206.5%',
+          paddingLeft: '5px',
+          marginBottom: '30px'
         }}
         text = "Tailor your monthly box of organic period products without the organic price tag (no pink taxing here). Get it delivered to your doorstep in sustainable packaging and track your subscription on our app. "
       />
-      <MediumButton 
+      <MediumButton className="medium-button"
         style = {{
           background: 'black',
           color: 'white',

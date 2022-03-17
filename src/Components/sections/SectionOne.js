@@ -1,6 +1,6 @@
 import React from 'react'
 import TextContent from '../elements/TextContent'
-import './sectionone.css'
+import './SectionOne.css'
 import Divider from '../elements/Divider'
 
 const SectionOne = () => {

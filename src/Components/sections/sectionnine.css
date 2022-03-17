@@ -6,7 +6,11 @@
 }
 
 h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 8.95px;
     color: white;
+    margin-left: -10px;
 }
 
 .social-media-icons {
@@ -24,6 +28,9 @@ h6 {
 }
 
 h6 {
-    margin: 17px 0 5px 9px;
+    margin: 17px 0 8px 11px;
 }
 
+Form {
+    padding-left: 11px;
+}

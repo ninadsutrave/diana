@@ -1,5 +1,5 @@
 import React from 'react'
-import './sectionsix.css'
+import './SectionSix.css'
 import Content from '../elements/Content'
 
 const SectionSix = () => {

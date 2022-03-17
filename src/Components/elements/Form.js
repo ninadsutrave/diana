@@ -1,6 +1,6 @@
 import React from 'react'
 import SmallButton from './SmallButton'
-import './form.css'
+import './Form.css'
 
 const Form = ({placeholder}) => {
   return (

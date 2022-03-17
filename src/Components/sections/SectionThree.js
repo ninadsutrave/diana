@@ -1,5 +1,5 @@
 import React from 'react'
-import './sectionthree.css'
+import './SectionThree.css'
 import Content from '../elements/Content'
 import TextContent from '../elements/TextContent'
 

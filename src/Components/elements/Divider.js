@@ -1,5 +1,5 @@
 import React from 'react'
-import './divider.css'
+import './Divider.css'
 
 const Divider = ({style}) => {
   return (

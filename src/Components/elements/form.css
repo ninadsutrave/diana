@@ -8,6 +8,9 @@
 
 #inputbox::placeholder {
     color: black;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 11px;
 }
 
 .input-form {

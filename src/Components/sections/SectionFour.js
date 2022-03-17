@@ -1,5 +1,5 @@
 import React from 'react'
-import './sectionfour.css'
+import './SectionFour.css'
 import Content from '../elements/Content'
 
 const SectionFour = () => {
