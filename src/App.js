@@ -1,10 +1,8 @@
 import './App.css';
 import React from 'react'
 
-//605px -> 100vh
-
 //importing components
-import Topbar from './Components/Topbar'
+import Topbar from './Components/elements/Topbar'
 import SectionOne from './Components/sections/SectionOne'
 import SectionTwo from './Components/sections/SectionTwo'
 import SectionThree from './Components/sections/SectionThree'
@@ -18,18 +16,16 @@ import SectionNine from './Components/sections/SectionNine'
 const App = () => {
   return (
     <>
-    <Topbar />
-
-    <SectionOne />   
-    <SectionTwo /> 
-    <SectionThree />
-    <SectionFour />
-    <SectionFive />
-    <SectionSix />
-    <SectionSeven />
-    <SectionEight />
-    <SectionNine />
-
+      <Topbar />
+      <SectionOne />   
+      <SectionTwo /> 
+      <SectionThree />
+      <SectionFour />
+      <SectionFive />
+      <SectionSix />
+      <SectionSeven />
+      <SectionEight />
+      <SectionNine />
     </>
   )
 }

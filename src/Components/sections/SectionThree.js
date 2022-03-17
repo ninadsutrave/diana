@@ -51,7 +51,7 @@ const SectionThree = () => {
             top: '2900px'
           }}
         />
-        <TextContent className="hashtag"
+        <h1 className="hashtag"
           style = {{
             position: 'absolute',
             textAlign: 'center',
@@ -64,12 +64,14 @@ const SectionThree = () => {
             top: '2980px',
             left: '53px'
           }}
-          text = '#NoNasties, we promise!'
-        />
+          >#NoNasties, we promise!
+          </h1>
        
 
     </div>
+    <div className="product-container">
     <img className="self-care-product" alt="" src= {require("../../assets/images/self-care-product.png")} />
+    </div>
     </>
   )
 }

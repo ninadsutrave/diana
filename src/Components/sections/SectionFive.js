@@ -34,7 +34,9 @@ const SectionFive = () => {
         buttonText = "Track your period on the app"
     />        
     </div>
+    <div className="menstrual-calendar-container">
     <img className="menstrual-calendar" alt="" src= {require("../../assets/images/menstrual-calendar.png")} />
+    </div>
     </>
   )
 }

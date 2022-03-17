@@ -23,3 +23,39 @@
 .consultant, .self-care-product, .menstrual-calendar {
     display: block;
 }
+
+/*adding responsivity*/
+@media only screen and (min-width: 376px) {
+
+    #root {
+        background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 33.33%, rgba(213, 224, 255, 0) 100%);
+    }
+
+    .section-two, .section-three, .section-four, .section-five, .section-six, .section-seven, .section-nine {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-container, .consultant-container, .menstrual-calendar-container {
+        display: inline-block;
+        transform: translateX(50vw) translateX(-50%);
+        height: 350px;
+        overflow: hidden;
+    }
+    .consultant-container {
+        height: 250px;
+    }
+    .menstrual-calendar-container {
+        height: 360px;
+    }
+    .button-large {
+        z-index: 1;
+    }
+    .hashtag {
+        display: none;
+    }
+    .list {
+        margin-top: -50px;
+    }
+}

@@ -38,7 +38,9 @@ const SectionSix = () => {
           buttonText = "Get a consultation"
         />
     </div>
+    <div className="consultant-container">
     <img className="consultant" alt="" src= {require("../../assets/images/consultant.png")} />
+    </div>
     </>
   )
 }
