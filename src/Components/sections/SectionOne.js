@@ -5,7 +5,7 @@ import Divider from '../elements/Divider'
 
 const SectionOne = () => {
   return (
-    <div className="section section-one">
+    <div className="section-one">
       <TextContent
         style ={{
           fontFamily: 'Reptile-Medium',
