@@ -64,7 +64,6 @@ const SectionTwo = () => {
             text = "Equip you with simple, sustainable products that get the job done"
           />
         </li>
-
       </ul>
 
       <TextContent 

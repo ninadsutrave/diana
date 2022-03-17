@@ -14,7 +14,7 @@ const SectionSeven = () => {
         }}
         text = "Get your personalized period box"
       />
-      <img alt="" src={require('../../assets/images/period-box.png')} />
+      <img className="period-box" alt="" src={require('../../assets/images/period-box.png')} />
       <TextContent 
         style = {{
           fontSize: '14px',
