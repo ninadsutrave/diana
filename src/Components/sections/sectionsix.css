@@ -4,7 +4,7 @@
     background: linear-gradient(270deg, #DADAE4 0.25%, #EEEEF0 24.33%, #F8F8F8 52.08%, #FEFEFE 100%);
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: column;
     justify-content: center;
     flex-direction: column;
 }

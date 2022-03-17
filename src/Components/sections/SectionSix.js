@@ -1,7 +1,5 @@
 import React from 'react'
 import './sectionsix.css'
-import TextContent from '../elements/TextContent'
-import LargeButton from '../elements/LargeButton'
 import Content from '../elements/Content'
 
 const SectionSix = () => {
