@@ -1,4 +1,4 @@
-# Dyeus Internship Assessment Task
+# Internship Assessment Task
 
 Goal: Create a small 375px width mobile-only web page section using a JS framework of your choice.
 
@@ -6,4 +6,4 @@ Link To Design: https://www.figma.com/file/8nZYb5FIrfSOBh2uzLfsaZ/Task---Dyeus-W
 
 # Live Link
 
-https://dyeus-task-frontend.netlify.app/
+https://diana-task.netlify.app/
